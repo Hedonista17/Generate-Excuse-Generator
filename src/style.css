@@ -1,3 +1,31 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-image: url(https://static.vecteezy.com/system/resources/previews/007/718/172/non_2x/blue-hexagonal-technology-on-dark-background-free-vector.jpg);
+}
+
+#contenedor {
+  width: 60%;
+  height: 60%;
+  margin: 200px 200px;
+  padding: 100px;
+  background-image: url(https://us.123rf.com/450wm/panychev/panychev1602/panychev160200182/51838787-resumen-fondo-azul-oscuro-para-productos-de-tecnolog%C3%ADa-negocios-inform%C3%A1tica-o-electr%C3%B3nica-ilustraci%C3%B3.jpg);
+  background-size: cover;
+}
+
 h1 {
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.botones {
+  position: relative;
+}
+
+button {
+  color: white;
+  background-color: rgb(76, 78, 80);
+  border-color: teal;
+  border-radius: 5%;
+  position: absolute;
 }
