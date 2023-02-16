@@ -12,17 +12,18 @@ window.onload = () => {
 let generateexcuse = () => {
   let who = [
     "Bob Esponja",
-    "Mi trauma de la infancia",
+    "Goku",
     "La tortuga de Juan",
-    "Jovany Vazquez"
+    "Jovany Vazquez",
+    "Max Estrella",
   ];
-  let what = ["se comió", "lloró", "voló y me hizo volar", "saltó"];
+  let what = ["comió", "lloró", "voló y me hizo volar", "saltó", "bailó"];
   let when = [
-    "una milanesa con papas fritas",
+    "caminado con un flow violento",
     "justo a tiempo",
     "y pensé no eres tu soy yo, que te he cogido asco",
     "cuando eran 3 motoristas que eran motos",
-    "mientras jugaba acá en la arbolada"
+    "mientras jugaba acá en la arbolada",
   ];
 
   let whoIndex = Math.floor(Math.random() * who.length);
